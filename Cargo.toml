@@ -1,0 +1,9 @@
+[package]
+name = "hello_test"
+version = "0.1.0"
+authors = ["YOU <YOU@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+name = "fart"
+crate-type = ["cdylib"]
