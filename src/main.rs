@@ -1,5 +1,5 @@
-#[link(name = "hello_lib.dll", kind="dylib")]
-extern "C" {
+#[link(name = "hello.dll", kind="dylib")]
+extern {
     fn lib_test();
 }
 
