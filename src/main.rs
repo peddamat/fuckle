@@ -1,7 +1,4 @@
-// mod lib;
-// use crate::lib::*;
-
-#[link(name = "fart.dll", kind="dylib")]
+#[link(name = "hello_lib.dll", kind="dylib")]
 extern "C" {
     fn lib_test();
 }
